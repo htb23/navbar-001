@@ -13,7 +13,7 @@ export default function Home() {
     <section className="grid grid-cols-1 sm:grid-cols-2  mt-5">
     
       <div className="md:p-20 sm:p-20 p-20">
-<h1 className="text-4xl sm:text-4xl md:text-6xl font-semibold">My Name is Muzammil Mazhar</h1>
+<h1 className="text-4xl sm:text-4xl md:text-6xl font-semibold">My Name is Zain Ali</h1>
 
 <div className="flex gap-4 mt-5 justify-center">
 
