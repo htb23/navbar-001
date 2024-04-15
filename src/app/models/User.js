@@ -10,11 +10,9 @@ const UserSchema  = new Schema({
         validate:pass =>{
      if(!pass?.length || pass.length < 5){
         new Error('password must be at least 5 characters')
+        return false;
      }
         },},
 }, {tmestamps: true});
-UserSchema.post('validate', function(doc){
-   console.log({arguments});
-})
 
 export const User = models?.User || model('User', UserSchema);
