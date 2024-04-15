@@ -1,7 +1,8 @@
+
 function Footer(){
     return(
         
-<div className="bg-gray-100 h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-20 mt-10">
+<div className="grid grid-cols-2 lg:grid-cols-4 md:grid-cols-2">
 
 <div className="p-5">
 <ul>
@@ -21,6 +22,7 @@ function Footer(){
     <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">Burgers</li>
 </ul>
 </div>
+
 <div className="p-5">
 <ul>
     <p className="text-gray-800 font-bold text-2xl  pb-4">Products</p>
@@ -39,6 +41,8 @@ function Footer(){
     <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">Burgers</li>
 </ul>
 </div>
+
+
 
 </div> 
 

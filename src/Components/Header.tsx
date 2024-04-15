@@ -5,12 +5,12 @@ function Header(){
    <div>
    <header className="flex item-center justify-between">
 
-  <nav className="flex items-center gap-8">
+  <nav className="flex items-center gap-10">
   <Link  className="font-semibold text-2xl" href="/"><span className="text-blue-600">Digi</span>Markistan</Link>
-   <Link  href="/">Home</Link>
-   <Link href="/Services">Services</Link>
-   <Link href="./Branches">Branches</Link>
-   <Link href="./Contact">Contact</Link>
+   <Link  className="hover:border-b-4 border-blue-600 transition-all" href="/">Home</Link>
+   <Link className="hover:border-b-4 border-blue-600 transition-all" href="/Services">Services</Link>
+   <Link className="hover:border-b-4 border-blue-600 transition-all"  href="./Branches">Branches</Link>
+   <Link className="hover:border-b-4 border-blue-600 transition-all" href="./Contact">Contact</Link>
    
    </nav>
    <nav className="flex items-center gap-4">
